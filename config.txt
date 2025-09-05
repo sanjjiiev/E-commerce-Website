@@ -1,0 +1,34 @@
+pip install virtualenv
+virtualenv myenv
+myenv\Scripts\activate
+pip install django
+django-admin startproject ecommerce
+cd ecommerce
+python manage.py startapp authapp
+python manage.py startapp ekartapp
+python manage.py migrate
+python manage.py runserver
+
+_________________________
+myenv\Scripts\activate
+cd ecommerce
+python manage.py runserver
+
+__________________________
+pip install six
+
+__________________________
+python manage.py createsuperuser
+
+#django-admin credentials
+username: ark
+password : ark
+___________________________
+pip install Pillow
+_________________________
+python manage.py makemigrations
+python manage.py migrate
+pip install pycryptodome
+
+_________________________
+pip install -r requirements.txt  : open ecommerce folder and run this in terminal to install modules at once work till session 17 capstone-2
